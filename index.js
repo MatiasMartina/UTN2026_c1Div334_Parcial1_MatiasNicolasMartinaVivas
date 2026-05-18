@@ -35,7 +35,7 @@ function sumarAlCarrito(e)
         carrito.push({ nombre: nombre, precio: precio, cantidad: 1 });
     }
     //Alerttaaa atrr
-    alert("Un/una: " + nombre + " fue agregado al carrito");
+    alert("SE FESTEJA EN EL OBELICOOOOOOO ÑAM ÑAM Un: " + nombre + " fue agregado al carrito. QUE SHIIICO");
     //Mostramos antes de guardar el carrito para verificar que se esta sumando correctamente
     console.log(carrito);
     // guardo todo
@@ -58,7 +58,7 @@ function restarDelCarrito(e)
 
     // si el carrito esta vacio no hay nada que restar
     if (carrito.length === 0) {
-        alert("No hay ningún producto guardado en el carrito");
+        alert("OYEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE. No hay ningún producto guardado en el carrito JEJE");
         return;
     }
 
@@ -67,11 +67,11 @@ function restarDelCarrito(e)
 
     if (!productoExistente) {
         // si no estaba aviso que no hay mas
-        alert("No hay más " + nombre + " en el carrito");
+        alert("PECADO MORTAL: No hay más " + nombre + " en el carrito");
     } else {
         // si estaba le resto uno
         productoExistente.cantidad--;
-        alert("Un/una: " + nombre + " fue eliminado del carrito");
+        alert("DELITO FEDERAL: una " + nombre + " fue eliminado del carrito");
 
         // si quedo en 0 lo saco del array
         carrito = carrito.filter(p => p.cantidad > 0);
